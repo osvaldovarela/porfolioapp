@@ -8,6 +8,7 @@ import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { ExperienciaYEducacionComponent } from './componentes/experiencia-y-educacion/experiencia-y-educacion.component';
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { LogrosComponent } from './componentes/logros/logros.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LogrosComponent } from './componentes/logros/logros.component';
     AcercaDeComponent,
     ExperienciaYEducacionComponent,
     AptitudesComponent,
-    LogrosComponent
+    LogrosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule , SwiperModule
